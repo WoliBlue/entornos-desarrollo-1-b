@@ -44,7 +44,7 @@ public class casa {
      */
     public String getdireccion() {
         // TODO implement here
-        return "";
+        return this.direccion;
     }
 
     /**
@@ -52,15 +52,15 @@ public class casa {
      */
     public int getNumHabitaciones() {
         // TODO implement here
-        return 0;
+        return this.numHabitaciones;
     }
 
     /**
      * @return
      */
-    public int getMetrosCuadrados() {
+    public int getmetrosCuadrados() {
         // TODO implement here
-        return 0;
+        return this.getmetrosCuadrados();
     }
 
     /**
@@ -68,6 +68,7 @@ public class casa {
      */
     public void setDireccion(String direccion) {
         // TODO implement here
+    	this.direccion = direccion;
     }
 
     /**
@@ -75,13 +76,15 @@ public class casa {
      */
     public void setNumHabitaciones(int NumHabitaciones) {
         // TODO implement here
+    	
     }
 
     /**
      * @param metrosCuadrados
      */
-    public void setMetrosCuadrados(int metrosCuadrados) {
+    public void setmetrosCuadrados(int metrosCuadrados) {
         // TODO implement here
+    	this.metroscuadrados = metrosCuadrados;
     }
 
     /**
@@ -89,7 +92,7 @@ public class casa {
      */
     public String toString() {
         // TODO implement here
-        return "";
+        return direccion + " " + numHabitaciones + " " + metroscuadrados;
     }
 
 }

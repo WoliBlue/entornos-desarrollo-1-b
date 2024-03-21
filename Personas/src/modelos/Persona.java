@@ -1,4 +1,4 @@
-
+package modelos;
 import java.util.*;
 
 /**
@@ -9,9 +9,6 @@ public class persona {
     /**
      * Default constructor
      */
-    public persona() {
-    }
-
     /**
      * 
      */
@@ -20,7 +17,7 @@ public class persona {
     /**
      * 
      */
-    public void nombre;
+    public String nombre;
 
     /**
      * 
@@ -44,7 +41,7 @@ public class persona {
      * @param apellido2 
      * @param edad
      */
-    public void persona(String dni, String nombre, String apellido1, String apellido2, int edad) {
+    public persona(String dni, String nombre, String apellido1, String apellido2, int edad) {
         // TODO implement here
     }
 
@@ -63,10 +60,5 @@ public class persona {
         return "";
     }
 
-    /**
-     * 
-     */
-    public enum Enumeration1 {
-    }
 
 }
