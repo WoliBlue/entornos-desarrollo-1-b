@@ -1,47 +1,41 @@
-package modelos;
 
-	
 import java.util.*;
 
 /**
  * 
  */
-public class Persona {
+public class persona {
 
     /**
-     * @param dni
-     * @param nombre
-     * @param apellido1
-     * @param apellido2
-     * @param edad
+     * Default constructor
      */
-    public Persona() {
+    public persona() {
     }
 
     /**
      * 
      */
-    private String dni;
+    public String dni;
 
     /**
      * 
      */
-    private String nombre;
+    public void nombre;
 
     /**
      * 
      */
-    private String apellido1;
+    public String apellido1;
 
     /**
      * 
      */
-    private String apellido2;
+    public String apellido2;
 
     /**
      * 
      */
-    private int edad = 0;
+    public int edad = 0;
 
     /**
      * @param dni 
@@ -50,7 +44,7 @@ public class Persona {
      * @param apellido2 
      * @param edad
      */
-    public void Persona(String dni, String nombre, String apellido1, String apellido2, int edad) {
+    public void persona(String dni, String nombre, String apellido1, String apellido2, int edad) {
         // TODO implement here
     }
 
@@ -67,6 +61,12 @@ public class Persona {
     public String getDni() {
         // TODO implement here
         return "";
+    }
+
+    /**
+     * 
+     */
+    public enum Enumeration1 {
     }
 
 }
