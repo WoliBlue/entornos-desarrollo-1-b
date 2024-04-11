@@ -1,5 +1,6 @@
 package app;
 
+<<<<<<< HEAD
 import modelos.Rectangulo;
 
 public class Main {
@@ -20,3 +21,17 @@ public class Main {
 	}
 
 }
+=======
+public class Main {
+	
+    public static void main(String[] args) {
+
+    	
+    	
+    	
+    	
+    	
+}
+
+}
+>>>>>>> fed38ea8f5de2cf45e96b1f0b510a3807f13c47d
